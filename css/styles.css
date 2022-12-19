@@ -115,7 +115,7 @@ a:hover{
   margin-left:20px;
 }
 
-@media only screen and (max-width: 600px){
+@media only screen and (max-width: 800px){
 h1{
   font-size: 74px;
 }
@@ -142,7 +142,7 @@ a{
   }
 
   .gradiant{
-    height:80%;
+    height:75%;
     margin-left:30px;
     margin-right:20px;
   }
