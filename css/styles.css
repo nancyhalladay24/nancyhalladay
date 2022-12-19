@@ -1,0 +1,158 @@
+
+html, body {
+  background-color: #E6EFE9;
+  height:100%;
+}
+
+h1{
+  font-size: 90px;
+  font-family: "Georgia, serif";
+  margin-top:10px;
+  margin-bottom:30px;
+}
+
+p {
+  font-size:18px;
+  font-family: "Gill Sans";
+  font-weight: lighter;
+}
+
+a{
+  font-size:24px;
+  font-family: "Gill Sans";
+  font-weight: 600;
+  font-style: italic;
+  background-color: #FFF9F4;
+  color: #000;
+  text-decoration: none;
+  padding:2px;
+}
+
+a:hover{
+  color: #FF5700;
+  text-decoration: underline;
+
+}
+
+.main-wrapper{
+  display:flex;
+  flex-direction:row;
+  width:70%;
+  height:100%;
+  justify-content: center;
+  align-items:flex-start;
+}
+
+.homepage-content{
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items:flex-start;
+  order:1;
+  flex-basis:auto;
+  height:100%;
+  padding-left:10%;
+  @media only screen and (max-width: 600px){
+    order:2;
+  }
+}
+
+.header{
+  display:flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.content{
+  display:flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width:60%;
+}
+
+.menu-mobile{
+  display:flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  display: none;
+  margin:20px 0px 0px 0px;
+}
+
+.gradiant-box{
+  display:flex;
+  flex-direction:column;
+  justify-content: center;
+  align-items:center;
+  flex-basis:auto;
+  order:2;
+  height:100%;
+  width:8px;
+}
+.gradiant{
+  display:flex;
+  flex-direction:column;
+  justify-content: center;
+  align-items:center;
+  flex-basis:auto;
+  height:45%;
+  width:8px;
+  background-image: linear-gradient(#6374F2, #FFE5CF);
+}
+
+.menu{
+  display:flex;
+  flex-direction:column;
+  justify-content: center;
+  align-items:flex-start;
+  text-align: left;
+  flex-basis:auto;
+  order:3;
+  height:100%;
+  width:30%;
+  margin-left:20px;
+}
+
+@media only screen and (max-width: 600px){
+h1{
+  font-size: 74px;
+}
+
+p{
+  font-size:16px;
+}
+
+a{
+  font-size: 22px;
+}
+
+.homepage-content{
+  order:2;
+  width:100%;
+}
+
+.menu-mobile{
+  display:flex;
+}
+
+  .gradiant-box{
+    order:1;
+  }
+
+  .gradiant{
+    height:80%;
+    margin-left:30px;
+    margin-right:20px;
+  }
+
+    .content{
+      width:100%;
+    }
+
+    .menu{
+     display: none;
+     width:0%;
+    }
+}
