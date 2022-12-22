@@ -2,7 +2,7 @@
   "name": "nancy",
   "version": "1.0.0",
   "description": "Personal website for general blogging and portfolio",
-  "main": "/views/index.html",
+  "main": "/views/index",
   "repository": "https://github.com/nancyhalladay24/nancyhalladay.git",
   "author": "Nancy Halladay",
   "license": "MIT"
