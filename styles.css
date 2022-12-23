@@ -7,8 +7,8 @@ html, body {
 h1{
   font-size: 74px;
   font-family: "Georgia, serif";
-  margin-top:10px;
-  margin-bottom:30px;
+  margin-top:0px;
+  margin-bottom:20px;
 }
 
 p {
@@ -37,7 +37,7 @@ a:hover{
 .main-wrapper{
   display:flex;
   flex-direction:row;
-  width:70%;
+  width:100%;
   height:100%;
   justify-content: center;
   align-items:flex-start;
@@ -66,7 +66,7 @@ a:hover{
   flex-direction: column;
   justify-content: flex-start;
   align-items: flex-start;
-  width:100%;
+  width:90%;
 }
 
 .menu-mobile{
@@ -117,11 +117,19 @@ h1{
 }
 
 p{
-  font-size:17px;
+  font-size:18px;
 }
 
 a{
   font-size: 24px;
+}
+
+.main-wrapper{
+  width:70%;
+}
+
+.header{
+  width:90%;
 }
 
 .homepage-content{
