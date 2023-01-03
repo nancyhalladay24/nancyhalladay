@@ -78,7 +78,7 @@ a:hover{
 }
 
 .gradiant-box{
-  display:flex;
+  display:none;
   flex-direction:column;
   justify-content: center;
   align-items:center;
@@ -144,6 +144,7 @@ a{
 }
 
   .gradiant-box{
+    display:flex;
     order:2;
   }
 
@@ -195,6 +196,7 @@ a{
 }
 
   .gradiant-box{
+    display:flex;
     order:2;
   }
 
