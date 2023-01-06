@@ -5,27 +5,29 @@ html, body {
 }
 
 h1{
-  font-size: 74px;
-  font-family: "Georgia, serif";
+  font-size: 70px;
+  font-family: "Georgia";
   margin-top:0px;
   margin-bottom:20px;
 }
 
 p {
-  font-size:16px;
-  font-family: "Courier New";
-  font-weight: normal;
+  font-size:15px;
+  font-family: "zen-maru-gothic";
+  font-style: normal;
+  line-height: 20px;
 }
 
 a{
   font-size:22px;
-  font-family: "Georgia, serif";
+  font-family: "Georgia";
   font-weight: bold;
   font-style: italic;
   background-color: #FFF9F4;
   color: #000;
   text-decoration: none;
-  padding:2px;
+  padding:1px;
+  line-height: 24px;
 }
 
 a:hover{
@@ -115,11 +117,12 @@ a:hover{
 /* medium screen css */
 @media only screen and (min-width: 800px) and (max-width: 1350px) {
 h1{
-  font-size: 90px;
+  font-size: 85px;
 }
 
 p{
-  font-size:18px;
+  font-size:17px;
+  line-height: 22px;
 }
 
 a{
@@ -167,11 +170,12 @@ a{
 /* large desktop css */
 @media only screen and (min-width: 1350px){
 h1{
-  font-size: 90px;
+  font-size: 85px;
 }
 
 p{
-  font-size:18px;
+  font-size:17px;
+  line-height: 22px;
 }
 
 a{
