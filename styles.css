@@ -122,7 +122,7 @@ a:hover{
 /* large desktop css */
 @media only screen and (min-width: 950px){
 h1{
-  font-size: 85px;
+  font-size: 80px;
 }
 
 p{
@@ -134,17 +134,14 @@ a{
   font-size: 24px;
 }
 
-.main-wrapper{
-  width:80%;
-}
 
 .header{
-  width:90%;
+  width:625px;
 }
 
 .homepage-content{
   order:1;
-  width:100%;
+  padding-left:5%;
 }
 
 .menu-mobile{
@@ -160,26 +157,27 @@ a{
     order:2;
     flex-direction:column;
     justify-content: center;
-    align-items:center;
+    align-items:left;
     flex-basis:auto;
     height:100%;
     width:8px;
+    margin-left:40px;
   }
 
   .gradiant{
-    height:45%;
+    height:300px;
     margin-left:0px;
     margin-right:30px;
     flex-direction:column;
     justify-content: center;
     align-items:center;
     flex-basis:auto;
-    width:8px;
+    width:6px;
     background-image: linear-gradient(#6374F2, #FFE5CF);
   }
 
     .content{
-      width:70%;
+      width:600px;
     }
 
     .menu{
